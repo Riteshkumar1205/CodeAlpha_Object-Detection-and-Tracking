@@ -1,101 +1,89 @@
-# 📦 CodeAlpha Object Detection and Tracking
+# 📦 CodeAlpha – Object Detection and Tracking
+## 📌 Project Overview
 
-## 📌 Overview
-This project demonstrates **real-time object detection and tracking** using the **YOLOv8 model**. It leverages deep learning to identify and track multiple objects in video streams or images, making it useful for applications in surveillance, autonomous systems, and computer vision research.
+This project implements real-time object detection and tracking using the YOLOv8 deep learning model. It is designed to detect multiple objects in live video streams, recorded videos, or images with high accuracy and efficiency. The solution is suitable for applications such as video surveillance, intelligent monitoring systems, and computer vision research.
 
----
+# 🚀 Key Features
 
-## 🚀 Features
-- 🔍 **Object Detection** using YOLOv8 pretrained weights (`yolov8n.pt`)
-- 🎥 **Real-time Tracking** of detected objects
-- 📊 **Bounding Boxes & Labels** displayed on frames
-- ⚡ Optimized for speed and accuracy
-- 🛠️ Easy to extend for custom datasets
+🔍 Object Detection using pretrained YOLOv8 weights (yolov8n.pt)
 
----
+🎥 Real-Time Object Tracking across video frames
 
-## 🛠️ Installation
+📦 Bounding Boxes with Class Labels
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ashishraj-hub/CodeAlpha_Object-Detection-and-Tracking.git
-   cd CodeAlpha_Object-Detection-and-Tracking
-  '''
+⚡ Optimized Performance for speed and accuracy
 
-2. Install dependencies:
-    ```bash
-   pip install -r requirements.txt
-  '''
-  
-3. Ensure you have Python 3.8+ and a working GPU (optional but recommended).
+🧩 Easily Extensible for custom datasets and use cases
 
----
+## 🛠️ Installation & Setup
 
-## 📂 Project Structure
+1️⃣ Clone the Repository
+~~~
+git clone https://github.com/ashishraj-hub/CodeAlpha_Object-Detection-and-Tracking.git
+cd CodeAlpha_Object-Detection-and-Tracking
+~~~
+
+2️⃣ Install Required Dependencies
+~~~
+pip install -r requirements.txt
+~~~
+3️⃣ System Requirements
+
+*Python 3.8 or higher*
+
+GPU support is optional but recommended for better performance
+~~~
+📂 Project Structure
 
 CodeAlpha_Object-Detection-and-Tracking/
-│── Object_Detection.py   # Main script for detection & tracking
+│── Object_Detection.py   # Main script for object detection & tracking
 │── yolov8n.pt            # Pretrained YOLOv8 model weights
 │── README.md             # Project documentation
-│── LICENSE               # License file
+│── LICENSE               # License information
+~~~
+## ▶️ How to Run the Project
 
----
+Execute the main script:
 
-## ▶️ Usage
+python Object_Detection.py
 
-Run the detection script:
-```bash
-   python Object_Detection.py
-```
-You can modify the script to:
-- Use a webcam feed
+You can customize the script to:
 
-- Process video files
+Use a webcam for live detection
 
-- Detect objects in static images
+Process video files
 
----
+Perform detection on static images
 
-## 📸 Example Output
-Detected objects will be highlighted with bounding boxes and labels in real-time.
+## 📸 Output Preview
 
----
+Objects are detected and tracked in real time
 
-## 📖 Dependencies
+Bounding boxes and class labels are displayed dynamically on each frame
 
-- Python 3.8+
+📖 Dependencies Used
 
-- Ultralytics YOLOv8
+Python 3.8+
 
-- OpenCV
+Ultralytics YOLOv8
 
-- Numpy
+OpenCV
 
----
+NumPy
 
 ## 📜 License
-- This project is licensed under the MIT License – see the LICENSE file for details.
 
----
+This project is licensed under the MIT License.
+Refer to the LICENSE file for more details.
 
-## 🤝 Contributing
-Contributions are welcome!
+# 🤝 Contributing Guidelines
 
-- Fork the repo
+Contributions are welcome and appreciated!
 
-- Create a new branch
+Fork the repository
 
-- Commit your changes
+Create a new feature branch
 
-- Open a pull request
+Commit your changes
 
----
-
-## 👨‍💻 Author
-**Ashish Raj**
-
-Passionate about AI, ML, and computer vision.
-
-📌 GitHub Profile:- https://github.com/ashishraj-hub
-
-📌Linkedin Profile:- https://www.linkedin.com/in/ashish-raj-ashishraj/
+Open a pull request
